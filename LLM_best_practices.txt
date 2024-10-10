@@ -1,0 +1,84 @@
+I want to conclude
+this module by summarizing the prompting
+best practices you've seen, and also sharing some thoughts
+about how your role as a developer changes when
+working alongside an LLM. Let's start with
+prompting best practices. First, you saw it's
+important to be specific. Provide detail and context
+about your problem to help the LLM understand
+exactly what you need. As you learned earlier
+in this course, the transformer
+model underlying in LLM can easily handle
+large amounts of texts. This means that you can write long prompts that include
+extensive details about your project or
+even large portions of code that need
+edits or feedback. The more specific your prompt, the better the
+response you'll get. Second, assign a role. This helps the LLM tailor
+its output to what you need by explaining the
+perspective with which you'll want it to
+approach its response. If you assign the role of
+a helpful coding tutor, you might get code that's more beginner-friendly with
+more comments than if you assign the role of an expert and
+efficient programmer. Experiment with
+different roles to see what gets you the
+output that you need. Third, request an
+expert opinion. Assign the LLM the role as an expert in one
+or more domains, and then ask it to
+evaluate your work. You could assign the
+role of an expert on software testing
+or cybersecurity, and then you could request feedback on code that
+you've already written. This can help you identify potential flaws,
+suggest optimizations, and enhance the overall
+quality of your work. Finally, give feedback. Iteratively prompt the LLM
+and provide feedback on the output that you
+receive so that you can get closer to your
+expected results. The LLM will remember the context of an
+ongoing conversation, so if you're not happy
+with the initial response, you can ask it to make changes to get closer to what
+you're looking for. Most interactions with
+an LLM will require a few back and forth
+prompts before you get to something that you're
+ready to actually try using. Working alongside an
+LLM may feel like a substantial shift to your process as a
+software engineer, so I do want to share
+some good ideas that I think will serve you well in your ongoing journey of integrating this new
+tool into your work. First, experiment with
+what your LLM can do. LLMs are powerful,
+and they can often surprise you with just how
+much they're capable of. I recommend that you set
+aside time to try out different tasks that an
+LLM can help you with, and intentionally push the
+limits of what it can do. Can it understand the most complex parts of your code base? Can it refactor an
+entire library? Even if some of those
+experiments fail, approaching LLMs
+with an attitude of curiosity will help you
+uncover new possibilities. Second, test your
+LLM code carefully. LLMs can quickly generate code, but that doesn't mean it
+always works as expected. Avoid the temptation
+to just copy and paste LLM generated code into
+your project and move on. Review what was
+written and test it to ensure that the code
+not only works well, but it's compatible with
+the rest of your code base. Third, use LLMs as
+a learning tool. LLMs can suggest designs, software libraries, or
+even broader approaches that you wouldn't
+have considered. You can always ask
+follow-up questions, request example
+code, or just have the model present pros and cons of the solutions
+that it provides. Web searches, documentation,
+online forums, or asking a co-worker or a
+friend for help, of course, are still valuable, but the
+conversational nature of LLMs make them great tools to help personalize your
+ongoing learning. Finally, I think
+it's important to remember that you are
+the context expert. Even with detailed prompts and lengthy back and
+forth conversations, LLMs will know a lot less about the context of your
+project than you do. Ultimately, you still
+need to be the one that critically evaluates the
+code that's been written, and decides whether it fits
+the needs of your project. A successful LLM interaction
+should feel like you and the needs of
+your project are driving the code
+that you develop. With all of these
+best practices for interacting with an LLM in hand, now it's time for
+you to go forward and be a better coder.
